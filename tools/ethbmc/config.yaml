@@ -1,0 +1,8 @@
+name: EthBMC
+version: 0.1.
+origin: https://github.com/RUB-SysSec/EthBMC
+info: Succinct description of your tool.
+image: baolean/ethbmc:latest
+bin: scripts
+bytecode:
+    entrypoint: "'$BIN/do_bytecode.sh' '$FILENAME' '$TIMEOUT'"
