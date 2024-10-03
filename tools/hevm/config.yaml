@@ -1,0 +1,8 @@
+name: hevm
+version: 0.1
+origin: https://github.com/ethereum/hevm
+info: Succinct description of your tool.
+image: baolean/hevm:latest
+bin: scripts
+bytecode:
+    entrypoint: "'$BIN/do_bytecode.sh' '$FILENAME' '$TIMEOUT'"
